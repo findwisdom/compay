@@ -1,0 +1,403 @@
+
+/*项目分类模块*/
+.categorySection{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.category {
+    font-weight: bold;
+    font-family: "Microsoft Himalaya";
+    overflow: hidden;
+    height:auto;
+    width: 100%;
+    color: #434343;
+}
+.category_center{
+    width: 1065px;
+    margin: 0 auto;
+}
+
+.section1{
+    overflow: hidden;
+    height: 25em;
+    float: left;
+    width: 59%;
+}
+.section1>img,.section4>img{
+    width: 100%;
+    height: 25em;
+}
+
+.section2{
+    float:left;
+    width: 37.041%;
+    padding-left: 3.7%;
+    color: #434343;
+}
+
+.section3 {
+    padding-left: 3.7%;
+    margin-top: -5px;
+    width: 37.041%;
+    float: left;
+    color: black;
+}
+
+.section4 {
+    overflow: hidden;
+    width:59%;
+    margin-top: -5px;
+    float: right;
+    height: 25em;
+}
+.energy {
+    overflow: hidden;
+    font-weight: normal;
+    font-size: 2em;
+    margin-top: 3em;
+    color: #6b6969;
+}
+
+.energy_English {
+    font-family: "Microsoft Yi Baiti";
+    font-weight: normal;
+    color: #6b6969;
+    font-size: 1.3em;
+}
+
+.energyButton {
+    /*background-color:rgb(41,211,109);*/
+    width: 150px;
+    height: 2.875em;
+    border-radius: 5px;
+    border: none;
+    background: url("../images/buttun.jpg") no-repeat center center;
+    margin-top: 2em;
+}
+
+/*公司简介模块*/
+.companyProfile{
+    overflow: hidden;
+    width: 100%;
+    height: 37em;
+
+}
+.companyImage{
+    width:50%;
+    height: 37em;
+    float: left;
+    margin-top: -5px;
+    background: url("../images/iStock_39603812_LARGE.jpg") no-repeat center center;
+    background-size: cover;
+}
+.companyImage>img{
+    width: 100%;
+}
+.companyText{
+    overflow: hidden;
+    margin-top: -5px;
+    color:rgb(175,175,175);
+    line-height: 2em;
+    background-color: rgb(232,232,232);
+    float:right;
+    width:50%;
+    height: 37em;
+}
+.company_font{
+    margin-top: 7.3em;
+    margin-left: 4.3em;
+    font-family: "Microsoft Yi Baiti";
+}
+
+
+/*服务项目模块*/
+
+.services{
+    width: 100%;
+}
+.services_center{
+    width: 1065px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.title{
+    height: 2.8em;
+    text-align: center;
+    font-size: 2em;
+    color: #535353;
+    font-weight: normal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.title1{
+    margin-top: 2em;
+}
+.title2{
+    margin-top: 1.5em;
+    margin-bottom: 0;
+}
+.servicesItems{
+    float: left;
+    overflow: hidden;
+    width: 50%;
+    height: 15em;
+ /*   background-color: blue;*/
+}
+.greenBuild{
+    width: 50%;
+    height: 15em;
+    float: left;
+}
+.netOperation{
+    /*margin: 0 0 0 20em;*/
+    text-align: left;
+    width: 50%;
+    height: 15em;
+    float: left;
+    /*background-color: darkgoldenrod;*/
+}
+.greenBulidImg{
+    margin-top: 1em;
+    float: left;
+    margin-right: 2em;
+    margin-left: 3em;
+    margin-bottom: 7em;
+}
+.greenBuildText{
+    text-align:justify;
+    line-height: 1.8rem;
+    width: 19em;
+    float: left;
+    color: #a6a6a6;
+    font-family: "Microsoft Yi Baiti";
+}
+.greenBuildText p:nth-child(1){
+    color: #535353;
+    font-weight: bold;
+
+}
+
+/*案例展示*/
+.caseShow{
+    width: 100%;
+    height: 42.5em;
+    background-color: gainsboro;
+    padding-top: 50px;
+}
+
+.case{
+    width: 100%;
+    height: 25em;
+}
+.case_wrap{
+    overflow: hidden;
+    float: left;
+    width: 33.3%;
+    height: 25em;
+}
+
+
+.case img{
+    width: 100%;
+    height: 100%;
+}
+
+/*合作伙伴*/
+.partner{
+    overflow: hidden;
+    margin-top: 1em;
+    width: 100%;
+    height: 47.75em;
+}
+.partner_center{
+    overflow: hidden;
+    width: 1065px;
+    margin: 0 auto;
+}
+.partnerCompany{
+    width: 100%;
+}
+.partnerImg{
+    width:20%;
+    height: 13.625em;
+    background-color:rgb(232,232,232);
+    float: left;
+}
+.partnerImg>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.partnerImg1{
+    width:20%;
+    height: 13.625em;
+    background-color:rgb(255,255,255);
+    float: left;
+}
+.partnerImg1>img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*新闻政策*/
+.news{
+    overflow: hidden;
+    width: 100%;
+    height: 35em;
+    background-color: gainsboro;
+}
+.news_center{
+    overflow: hidden;
+    width: 1065px;
+    margin: 0 auto;
+    height: 35em;
+}
+.newsText{
+    width: 20em;
+    float: left;
+}
+.newsText1{
+    width: 26.5em;
+    float: left;
+}
+.newsText2{
+    margin: 0 auto;
+    width: 20em;
+    float:right;
+}
+.news1{
+    width:20.1em;
+    height: 2.25em;
+    background-color:rgb(2,168,244);
+    line-height: 2em;
+    margin-bottom: 2em;
+}
+.news2{
+    width:20.1em;
+    height: 2.25em;
+    background-color:rgb(41,211,109);
+    line-height: 2em;
+    margin: 0 auto 2em;
+}
+.news3{
+    width:20.2em;
+    height: 2.25em;
+    background-color:rgb(243,101,35);
+    line-height: 2em;
+    margin-bottom: 2em;
+}
+
+
+.file1{
+    height: 14.75em;
+    width:20em;
+    border: 1px solid rgb(2,168,244);
+    margin-top: 20px;
+
+}
+.file2{
+    height: 14.75em;
+    width:20em;
+    border: 1px solid rgb(41,211,109);
+    margin: 20px auto 0;
+}
+.file3{
+    height: 14.75em;
+    width:19.8em;
+    border: 1px solid rgb(243,101,35);
+}
+.file1>p>a,.file2>p>a,.file3>p>a{
+    color: black;
+}
+
+.message{
+    width: 18em;
+    height: 2em;
+    line-height: 2em;
+    margin: 1em auto 0 auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    overflow: hidden;
+    border-bottom: 1px solid #02a8f4;
+}
+
+/*底部*/
+.foot{
+    width: 100%;
+    overflow: hidden;
+    height: 250px;
+}
+.foot_center{
+    height: 250px;
+    overflow: hidden;
+    width: 1065px;
+    margin: 0 auto;
+    position: relative;
+}
+.text_common{
+    height:12em;
+    overflow: hidden;
+    width: 840px;
+    float: left;
+}
+
+.footText{
+    margin-top: 55px;
+    float: left;
+    width: 140px;
+ }
+.footText1{
+    margin-top: 55px;
+    width: 140px;
+    float: left;
+}
+.footTextLi{
+    font-weight: bold;
+    font-family: "Microsoft Himalaya";
+    color: #535353;
+
+}
+.footText ul li a,.footText1 ul li a{
+    color: #979797;
+    font-size: 0.75em;
+}
+
+.footTextLi{
+    color: #535353;
+    margin-bottom:2em;
+
+}
+
+.qrCode {
+    margin-top: 48px;
+    height: 9.5em;
+    float: right;
+    width: 180px;
+    margin-left: 30px;
+}
+.line{
+    top: 55px;
+    height: 150px;
+    left: 820px;
+    position: absolute;
+    width: 1px;
+    background: #535353;
+}
+.copyright{
+    overflow: hidden;
+    background: #535353;
+    height: 65px;
+    width: 100%;
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+}
+.copyright p:nth-child(1){
+    margin-top: 20px;
+}
