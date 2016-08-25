@@ -12,7 +12,7 @@
 
 **可以学习GIT的书籍**
 
-[git学习]([stackedit](https://stackedit.io/))
+[git学习](http://book.haoduoshipin.com/gitbeijing/)
 
 
 
